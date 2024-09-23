@@ -10,16 +10,16 @@
             ]
         },
         "appServicePlanName": {
-            "value": "asp-anders-demo-01"
+            "value": "asp-gussvens-lavo-demo-01"
         },
         "appServiceSku": {
             "value": "B1"
         },
         "appServiceName": {
-            "value": "app-anders-demo-01"
+            "value": "app-gussvens-lavo-demo-01"
         },
         "testAppServiceName": {
-            "value": "app-anders-demo-test-01"
+            "value": "app-gussvens-lavo-test-01"
         }
     }
 }
