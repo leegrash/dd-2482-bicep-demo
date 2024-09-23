@@ -1,0 +1,25 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "locations": {
+            "value": [
+                "West Europe",
+                "East US",
+                "Central US"
+            ]
+        },
+        "appServicePlanName": {
+            "value": "asp-anders-demo-01"
+        },
+        "appServiceSku": {
+            "value": "B1"
+        },
+        "appServiceName": {
+            "value": "app-anders-demo-01"
+        },
+        "testAppServiceName": {
+            "value": "app-anders-demo-test-01"
+        }
+    }
+}
