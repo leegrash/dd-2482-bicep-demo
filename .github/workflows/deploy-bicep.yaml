@@ -25,4 +25,4 @@ jobs:
           resourceGroupName: ${{ secrets.AZURE_RESOURCE_GROUP }}
           template: ./DemoEnvironment.bicep
           parameters: ./DemoEnvironment.parameters.json
-          deplymentMode: Complete
+          deploymentMode: Complete
