@@ -25,7 +25,7 @@ jobs:
         run: az bicep install
 
       - name: Build Bicep files
-        run: az bicep build --file DemoEnvironment.bicep
+        run: az bicep build --file DemoEnvironment.bicep --outdir compiled
 
       - name: Deploy Bicep files
-        run: az deployment group create --resource-group dd2482-demo-rg --template-file DemoEnvironment.json - -parameters DemoEnvironment.parameters.json --mode Complete
+        run: az deployment group create --resource-group dd2482-demo-rg --template-file compiled/DemoEnvironment.json --parameters @DemoEnvironment.parameters.json --mode Complete
