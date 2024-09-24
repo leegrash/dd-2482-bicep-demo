@@ -16,7 +16,7 @@ resource appServicePlans 'Microsoft.Web/serverfarms@2021-02-01' = [for location 
   }
 }]
 
-module DemoWebAppModule './Modules/AppService.bicep' = [for location in locations: {
+module DemoWebAppModule './modules/AppService.bicep' = [for location in locations: {
   name: '${deployment().name}-AppService-${location}'
   params: {
     appServicePlanName: '${appServicePlanName}-${location}'
@@ -28,7 +28,7 @@ module DemoWebAppModule './Modules/AppService.bicep' = [for location in location
   ]
 }]
 
-module DemoTestWebAppModule './Modules/AppService.bicep' = [for location in locations: {
+module DemoTestWebAppModule './modules/AppService.bicep' = [for location in locations: {
   name: '${deployment().name}-AppServiceTest-${location}'
   params: {
     appServicePlanName: '${appServicePlanName}-${location}'
