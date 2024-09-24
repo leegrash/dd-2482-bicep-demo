@@ -15,6 +15,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Verify Modules Checkout
+        run: |
+          ls -al
+          ls -al ./modules
+
       - name: Log in to Azure
         uses: azure/login@v1
         with:
