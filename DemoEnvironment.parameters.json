@@ -4,7 +4,8 @@
     "parameters": {
         "locations": {
             "value": [
-                "WestEurope"
+                "WestEurope",
+                "EastUS"
             ]
         },
         "appServicePlanName": {
