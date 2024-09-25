@@ -8,16 +8,16 @@
             ]
         },
         "appServicePlanName": {
-            "value": "asp-gussvens-lavo-demo-01"
+            "value": "1-our-take-home-message-is"
         },
         "appServiceSku": {
             "value": "B1"
         },
         "appServiceName": {
-            "value": "app-gussvens-lavo-demo-01"
+            "value": "2-using-bicep-helps-you"
         },
         "testAppServiceName": {
-            "value": "app-gussvens-lavo-test-01"
+            "value": "3-keep-your-deployments-modular"
         }
     }
 }
