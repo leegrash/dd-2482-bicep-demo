@@ -4,6 +4,7 @@
     "parameters": {
         "locations": {
             "value": [
+                "NorthEurope",
                 "WestEurope"
             ]
         },
